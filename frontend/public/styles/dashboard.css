@@ -1,0 +1,148 @@
+.avatar {
+    border-radius: 50%;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.navbar {
+    height: 65px !important;
+}
+
+.navbar > .divider {
+    border: 1px;
+    border-right: 1px solid white;
+}
+
+.divider {
+    border-right: 1px solid whitesmoke;
+    display: inline-block;
+    padding: 0 10px;
+    height: 30px;
+}
+
+._roleindication {
+    color: whitesmoke;
+    font-size: 0.9rem;
+}
+
+.navbar-item > img {
+    object-fit: cover;
+    width: 2.25rem;
+    max-height: 2.25rem !important;
+}
+
+.right {
+    float: right;
+    margin-left: 10px;
+}
+
+.is-link-hr, .is-blue-gradient {
+    height: 1px;
+    background: linear-gradient(90deg, rgba(50, 115, 220, 0.8) 0%, rgba(50, 115, 220, 0.8) 20%, rgba(32, 156, 238, 0.8) 100%);
+}
+
+.is-green-gradient {
+    height: 1px;
+    background: linear-gradient(90deg, rgba(56, 220, 50, 0.8) 0%, rgba(56, 220, 50, 0.8) 20%, rgba(73, 250, 67, 0.8) 100%);
+}
+
+.is-red-gradient {
+    height: 1px;
+    background: linear-gradient(90deg, rgba(220, 50, 50, 0.8) 0%, rgba(220, 50, 50, 0.8) 20%, rgba(250, 50, 90, 0.8) 100%);
+}
+
+.is-blue-gradient, .is-green-gradient, .is-red-gradient {
+    height: auto;
+    color: white;
+}
+
+.box {
+    box-shadow: 0 3px 8px 0 rgba(67, 65, 79, 0.1)
+}
+
+.accordion {
+    border: none !important;
+}
+
+.accordion > .accordion__item > .accordion__heading > .accordion__button {
+    background-color: transparent !important;
+}
+
+.intaker-name {
+    cursor: pointer;
+}
+
+.link-button, .profile-button {
+    color: #3273dc;
+    cursor: pointer;
+    text-decoration: none;
+    background: transparent;
+    border: none;
+    font-size: 1rem;
+}
+
+.link-button {
+    padding: 3px 0;
+}
+
+.profile-button {
+    padding: 3px 12px;
+}
+
+.link-button:hover,
+.link-button:focus {
+    color: #363636;
+}
+
+.profile-button:hover,
+.profile-button:focus {
+    background-color: #2366d1;
+    color: #fff;
+}
+
+.itemlist:hover,
+.itemlist:focus {
+    background-color: #f4f4f4;
+    border-radius: 5px;
+}
+
+.rdtPicker {
+    border: solid 1px black;
+}
+
+.codeModal .field {
+    text-align: center;
+}
+
+.codeModal .code {
+    font-size: 50px;
+    border-radius: 15px;
+    background-color: beige;
+    font-family: monospace;
+    display: inline;
+    padding: 5px 10px;
+}
+
+.row-list * {
+    margin: 0 5px;
+}
+
+.row-list *:first-of-type {
+    margin-left: 0;
+}
+
+.row-list *:last-of-type {
+    margin-right: 0;
+}
+
+.column-list * {
+    padding: 5px 0;
+}
+
+.row-list *:first-of-type {
+    padding-top: 0;
+}
+
+.row-list *:last-of-type {
+    padding-bottom: 0;
+}

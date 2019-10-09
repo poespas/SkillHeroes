@@ -1,0 +1,53 @@
+.navbar-item img {
+    margin-right: 20px;
+}
+
+.welcome-section .hero-body {
+    background-image: url("/img/hero0.jpg");
+    background-position: center center;
+    background-size: cover;
+}
+
+.welcome-section {
+    margin-bottom: 30px;
+}
+
+.card-colomn {
+    display: inline-block;
+}
+
+.game-card .price {
+    z-index: 1;
+    position: inherit;
+    font-size: 1.5em;
+    bottom: 10px;
+    left: 10px;
+    text-shadow: 1px 1px 7px #5f5f5f;
+    font-weight: 500;
+    color: white;
+}
+
+.game-page {
+    margin-top: 20px;
+}
+
+.price-special {
+    margin-top: 50px;
+    padding: 20px;
+    color: white;
+    max-width: 400px;
+    background-color: #3273dc;
+    box-shadow: 0 2px 3px rgba(10, 10, 10, 0.1), 0 0 0 1px rgba(10, 10, 10, 0.1);
+}
+
+.price-special .price {
+    padding: 20px;
+    color: black;
+    float: right;
+    background-color: yellow;
+    margin-top: -20px;
+}
+
+.footer {
+    margin-top: 200px;
+}
